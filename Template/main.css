@@ -1,0 +1,79 @@
+/*styling the index page*/ 
+
+
+h3 {
+	font-family: "Arial";
+	font-size: 25px;
+	font-weight: "bold";
+}
+
+
+
+#wrapper {
+	width:100%;
+	padding:20px;
+    
+}
+
+.row {
+	border: solid 1px #cccccc;
+    box-shadow: 3px 3px 1px #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:20px; 
+    
+    
+}
+.row img {
+	float: left;
+	margin-right:20px;	
+}
+
+.row p {
+	font-size:12px;
+	font-weight: bold; 
+}
+
+
+.post {
+	border-right:solid 1px #e0e0e0;
+}
+
+.post span {
+	color: #e0e0e0;
+	font-style:italic; 
+}
+
+.author {
+	text-align: center;
+	
+}
+.author p {
+	color:#ff0000;
+	font-weight:bold;
+	font-size: 14px; 
+}
+.author img{
+	margin-left: 20px;
+	
+}
+.row:nth-of-type(even) {
+    background:#cccccc;
+}
+
+/* pagination css */
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+
+}
+
+.pagination a.active {
+    background-color: #900;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
